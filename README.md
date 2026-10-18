@@ -2,47 +2,82 @@
 
 **A lightweight, fast 2D and 3D game creator for Windows, macOS and Linux.**
 
-Forge Studio gives solo creators and indie game developers the power to build, script, and publish rich 2D and 3D games with zero bloat, instant startup, and batteries included.
+Forge Studio gives solo creators and indie game developers the power to build, script, and publish rich 2D and 3D games with zero bloat and batteries included. It is free to download and use, and the games you make are yours to sell and share.
 
 ---
 
 ## 🚀 Downloads (Latest Release: v0.97.0)
 
-| Edition | Direct Download | Notes |
+| Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.97.0.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio.Setup.0.97.0.exe) | Standard setup with auto-updates and desktop integration |
-| **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Standalone single-file executable; run directly from any folder or USB |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.97.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio-0.97.0-mac.dmg) | Drag into Applications. First launch: right-click → **Open** |
-| **Linux** (x64) | [**Forge.Studio-0.97.0-linux.AppImage**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio-0.97.0-linux.AppImage) | `chmod +x` and run; updates in-app |
+| **Windows Installer** | [**Forge.Studio.Setup.0.97.0.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio.Setup.0.97.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.97.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio-0.97.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.97.0-linux.AppImage**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio-0.97.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
-> **Installed Users:** Installed copies receive new features and updates automatically inside the app via **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
+> **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
+
+### 🍎 First launch on macOS
+
+The Mac app is not yet signed with an Apple Developer ID, so macOS asks before opening it the first time:
+
+1. Open **Applications**, right-click **Forge Studio** and choose **Open**.
+2. Click **Open** in the dialog.
+3. If macOS still blocks it, go to **System Settings → Privacy & Security** and click **Open Anyway**.
+
+You only need to do this once. Mac copies show where to download each new version until in-app installs are available on Mac.
+
+### 💻 System requirements
+
+| | Minimum |
+| :--- | :--- |
+| **Windows** | Windows 10 or 11, 64-bit |
+| **macOS** | A recent macOS version, Intel or Apple Silicon |
+| **Linux** | 64-bit distribution that runs AppImages (some need `libfuse2`) |
+| **Graphics** | A GPU with WebGL2 support for 3D levels (most GPUs from the last decade). 2D works everywhere |
 
 ---
 
-## 🔒 About Software Distribution
+## ✨ What's new
 
-Forge Studio is distributed as a standalone, compiled Windows desktop application. 
+* **v0.97.0:** Forge Studio for **macOS and Linux**.
+* **v0.96.0:** Updated license terms. Games you make are yours to sell.
+* **v0.95.0:** Cinematic camera splines, destructible mesh fracturing, weapon slash arcs and vehicle suspension.
+* **v0.94.0:** Dynamic point and spot lights with radius falloff and flashlight cones.
+* **v0.93.0:** Branching dialogue trees with player choices, condition gates and quest hooks.
+* **v0.92.0:** Math in every number field (`16*3`, `+=2`), an undo history panel, and settings search in **Ctrl+K**.
+* **v0.91.0:** Drag-to-scrub number fields and a smarter command palette.
 
-* **Proprietary Engine Core:** GitHub automatically attaches generic *"Source code"* links to release tags by default, but the underlying engine core and editor runtime are proprietary commercial software.
-* **Game Scripting & Creation:** You do **not** need the engine's internal source code to create games. Creators author all their game logic, behaviors, and gameplay directly inside Forge Studio using **standard plain JavaScript (ES6+)**, visual node-graphs, and logic rules.
+See every change on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
 ---
 
 ## ⚡ Why Forge Studio?
 
-* **Instant Startup & Zero Bloat:** Launches in under 1 second. No 100 GB downloads, no external SDK installs, and zero shader compiling wait times.
-* **Full 3D & 2D Engines:** WebGL2 PBR renderer, soft shadows, bloom, depth of field, and authentic retro displays (CRT, Game Boy, NES, SNES, PS1 vertex wobble).
+* **Small and self-contained:** No huge downloads and no external SDKs to install. Open it and start building.
+* **Full 3D & 2D Engines:** Custom WebGL2 renderer with PBR materials, soft shadows, dynamic point and spot lights, bloom, screen-space reflections, depth of field, volumetric fog and ACES tone mapping, plus authentic retro displays (CRT, Game Boy, NES, SNES, PS1 vertex wobble).
 * **Code Your Way:**
-  * **Plain JavaScript:** Full object lifecycle scripting (`onStart`, `onUpdate`, `onTouch`, `onKey`, `onHit`, `onMessage`) with live code reloading during Play mode.
-  * **Visual Node-Graphs:** Blueprint-style visual scripting linking events, conditions, and actions with wired numeric/query value pins.
+  * **Plain JavaScript:** Full object lifecycle scripting (`onStart`, `onUpdate`, `onTouch`, `onKey`, `onHit`, `onMessage`) with live code reloading during Play mode and a built-in script debugger.
+  * **Visual Node-Graphs:** Blueprint-style visual scripting linking events, conditions, and actions with wired value pins.
   * **No-Code Rules:** Rapid event-driven triggers (`WHEN ... ONLY IF ... DO ...`).
-* **Batteries Included Out of the Box:**
-  * Over 290+ built-in CC0 3D models and 2D sprite packs.
-  * Rigged FBX and glTF skeletal animations with Mixamo animation blending.
-  * 2D/3D physics, continuous swept collision (no wall tunnelling), springs, hinges, and bone-fitted ragdolls.
-  * Priority AI Brains (chase, patrol, flee, guard) with 3D multi-floor navigation and slope climbing.
-  * Built-in 32-player client/server multiplayer networking.
-  * 1-click standalone HTML and Windows executable export.
+* **A fast editor:** Command palette that finds any command, object or setting; undo history; drag-to-scrub and math in number fields; prefabs; terrain sculpting; timeline and cutscene tools.
+* **Batteries Included:**
+  * 400+ built-in CC0 3D models and 2D sprites.
+  * Rigged FBX and glTF skeletal animation with Mixamo support, animation layers, foot-placement and look-at IK.
+  * 2D/3D physics, capsule character controllers, continuous collision (no wall tunnelling), springs, hinges, ragdolls and destructible props.
+  * AI brains (chase, patrol, flee, guard) with 3D multi-floor navigation meshes.
+  * Branching dialogue, quests, decals, particles and ribbon trails.
+  * Built-in 32-player online multiplayer with encrypted connections.
+  * One-click export to a standalone HTML game that runs in a web browser, or a Windows executable (exported from the Windows version).
+
+---
+
+## 🔒 About Software Distribution
+
+Forge Studio is distributed as a compiled desktop application for Windows, macOS and Linux.
+
+* **Proprietary Engine Core:** GitHub automatically attaches generic *"Source code"* links to release tags, but those contain only this page. The engine core and editor are proprietary software and are not published.
+* **Game Scripting & Creation:** You do **not** need the engine's source code to create games. You write all game logic, behaviors and gameplay inside Forge Studio using **standard JavaScript (ES6+)**, visual node-graphs and logic rules.
 
 ---
 
