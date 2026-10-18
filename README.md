@@ -41,3 +41,9 @@ Forge Studio is distributed as a standalone, compiled Windows desktop applicatio
   * Priority AI Brains (chase, patrol, flee, guard) with 3D multi-floor navigation and slope climbing.
   * Built-in 32-player client/server multiplayer networking.
   * 1-click standalone HTML and Windows executable export.
+
+---
+
+## License
+
+Forge Studio is proprietary software. It is free to download and use, and the games you make with it are yours to sell and share. Copying, redistributing or modifying Forge Studio itself is not permitted. See [LICENSE](LICENSE) for the full terms.
