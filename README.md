@@ -6,11 +6,11 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.95.0)
+## 🚀 Downloads (Latest Release: v0.96.0)
 
 | Edition | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.95.0.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.95.0/Forge.Studio.Setup.0.95.0.exe) | Standard setup with auto-updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.96.0.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.96.0/Forge.Studio.Setup.0.96.0.exe) | Standard setup with auto-updates and desktop integration |
 | **Portable Edition** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Standalone single-file executable; run directly from any folder or USB |
 
 > **Installed Users:** Installed copies receive new features and updates automatically inside the app via **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
