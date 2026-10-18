@@ -1,0 +1,56 @@
+Forge Studio — Proprietary Software License
+
+Copyright (c) 2026 Forge Studio. All rights reserved.
+
+Forge Studio, including its editor, engine, runtime, source code, documentation,
+artwork and installers (the "Software"), is proprietary software owned by
+Forge Studio and is licensed, not sold.
+
+1. Permitted use
+   You may download, install and use the Software free of charge, for personal
+   or commercial purposes, on any number of your own devices, using the official
+   downloads published by Forge Studio.
+
+2. Your games and projects
+   Projects, games, levels, scripts and other content you create with the
+   Software belong to you. You may sell and distribute the games you make,
+   including games exported by the Software that contain its game runtime, as
+   part of your own game.
+
+3. Restrictions
+   Except as expressly allowed above, or where applicable law does not allow
+   these restrictions, you may not:
+   a) copy, redistribute, sell, rent, lease, sublicense or publish the Software
+      or its installers;
+   b) modify, translate or create derivative works of the Software;
+   c) reverse engineer, decompile or disassemble the Software;
+   d) remove or change any copyright, trademark or license notices; or
+   e) use the Software or any part of it to build a competing game editor or
+      engine.
+
+4. Third-party components
+   The Software includes third-party components and assets (for example
+   Electron and Chromium, and Kenney and Quaternius art released under CC0 1.0).
+   Those components remain under their own licenses, which are included with
+   the Software and in the assets/licenses folder. Nothing in this license
+   restricts rights you have under those licenses.
+
+5. Updates
+   Forge Studio may provide updates through the Software's update feature. This
+   license applies to all updates unless they come with different terms.
+
+6. Termination
+   This license ends automatically if you break its terms. When it ends, you
+   must stop using and delete the Software. Sections 2, 4, 7 and 8 continue to
+   apply.
+
+7. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+8. Limitation of liability
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL FORGE STUDIO BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   SOFTWARE OR THE USE OF OR OTHER DEALINGS IN THE SOFTWARE.
