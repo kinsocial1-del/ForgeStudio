@@ -1,17 +1,19 @@
 # 🔨 Forge Studio
 
-**A lightweight, fast 2D and 3D game creator for Windows.**
+**A lightweight, fast 2D and 3D game creator for Windows, macOS and Linux.**
 
 Forge Studio gives solo creators and indie game developers the power to build, script, and publish rich 2D and 3D games with zero bloat, instant startup, and batteries included.
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.96.0)
+## 🚀 Downloads (Latest Release: v0.97.0)
 
 | Edition | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.96.0.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.96.0/Forge.Studio.Setup.0.96.0.exe) | Standard setup with auto-updates and desktop integration |
-| **Portable Edition** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Standalone single-file executable; run directly from any folder or USB |
+| **Windows Installer** | [**Forge.Studio.Setup.0.97.0.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio.Setup.0.97.0.exe) | Standard setup with auto-updates and desktop integration |
+| **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Standalone single-file executable; run directly from any folder or USB |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.97.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio-0.97.0-mac.dmg) | Drag into Applications. First launch: right-click → **Open** |
+| **Linux** (x64) | [**Forge.Studio-0.97.0-linux.AppImage**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.0/Forge.Studio-0.97.0-linux.AppImage) | `chmod +x` and run; updates in-app |
 
 > **Installed Users:** Installed copies receive new features and updates automatically inside the app via **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
