@@ -6,14 +6,14 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.102.1)
+## 🚀 Downloads (Latest Release: v0.102.2)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.102.1.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.102.1/Forge.Studio.Setup.0.102.1.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.102.2.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.102.2/Forge.Studio.Setup.0.102.2.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.102.1-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.102.1/Forge.Studio-0.102.1-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.102.1-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.102.1/Forge.Studio-0.102.1-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.102.2-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.102.2/Forge.Studio-0.102.2-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.102.2-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.102.2/Forge.Studio-0.102.2-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ You only need to do this once. Mac copies show where to download each new versio
 ---
 
 ## ✨ What's new
+
+* **v0.102.2:** Fixed imported PBR-only model UVs, shared texture sampler interference, per-map glTF wrapping and zero normal-map strength.
 
 * **v0.102.1:** Fixed first-sound mixer routing, stale imported audio after replacement, decode retry handling, cache growth and boosted music volume errors.
 
