@@ -6,14 +6,14 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.100.1)
+## 🚀 Downloads (Latest Release: v0.100.2)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.100.1.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.1/Forge.Studio.Setup.0.100.1.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.100.2.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.2/Forge.Studio.Setup.0.100.2.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.100.1-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.1/Forge.Studio-0.100.1-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.100.1-linux.AppImage**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.1/Forge.Studio-0.100.1-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.100.2-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.2/Forge.Studio-0.100.2-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.100.2-linux.AppImage**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.2/Forge.Studio-0.100.2-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ You only need to do this once. Mac copies show where to download each new versio
 ---
 
 ## ✨ What's new
+
+* **v0.100.2:** Fixed stuck firing/camera input, music carrying into silent levels, and saved games staying frozen after a win or game over.
 
 * **v0.100.1:** Chasing enemies jump straight up low ledges, never walk off the edge of the level, and round wall corners smoothly.
 * **v0.100.0:** Smart duplicate (copies repeat your last move) and one-click fixes in Project check.
