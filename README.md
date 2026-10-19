@@ -6,14 +6,14 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.100.9)
+## 🚀 Downloads (Latest Release: v0.101.0)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.100.9.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.9/Forge.Studio.Setup.0.100.9.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.101.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.101.0/Forge.Studio.Setup.0.101.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.100.9-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.9/Forge.Studio-0.100.9-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.100.9-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.9/Forge.Studio-0.100.9-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.101.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.101.0/Forge.Studio-0.101.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.101.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.101.0/Forge.Studio-0.101.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -40,6 +40,7 @@ You only need to do this once. Mac copies show where to download each new versio
 
 ## ✨ What's new
 
+* **v0.101.0:** Contrast-Adaptive Sharpening (CAS) for razor-sharp micro-textures without halo artifacts, cinematic anamorphic bloom lens streaks, and physical solar limb darkening with high-density corona and ice-crystal halo.
 * **v0.100.9:** Ground-Truth Ambient Occlusion (GTAO) with multi-bounce interreflections, Screen-Space Contact Shadows (SSCS), Toksvig specular anti-aliasing, and golden-hour Rayleigh atmosphere scattering.
 * **v0.100.8:** Full PBR texture map pipeline (Normal with strength scaling, ORM with AO extraction, Emissive glow) and enhanced Modern visual style with volumetric mist, god rays, and SSR.
 * **v0.100.7:** Fixed Level settings navigation in the hierarchy panel, revealing inspector fields and game rules directly.
