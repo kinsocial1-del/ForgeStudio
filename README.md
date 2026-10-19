@@ -6,14 +6,14 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.97.1)
+## 🚀 Downloads (Latest Release: v0.100.0)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.97.1.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.1/Forge.Studio.Setup.0.97.1.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.100.0.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.0/Forge.Studio.Setup.0.100.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.97.1-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.1/Forge.Studio-0.97.1-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.97.1-linux.AppImage**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.97.1/Forge.Studio-0.97.1-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.100.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.0/Forge.Studio-0.100.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.100.0-linux.AppImage**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.0/Forge.Studio-0.100.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -40,6 +40,9 @@ You only need to do this once. Mac copies show where to download each new versio
 
 ## ✨ What's new
 
+* **v0.100.0:** Smart duplicate (copies repeat your last move) and one-click fixes in Project check.
+* **v0.99.0:** Trauma-based screen shake, directional camera recoil and distance-based explosion shakes.
+* **v0.98.0:** Time scale, audio mixer buses and stylized scene transitions.
 * **v0.97.1:** Mac and Linux polish: platform badge, and clearer export options.
 * **v0.97.0:** Forge Studio for **macOS and Linux**.
 * **v0.96.0:** Updated license terms. Games you make are yours to sell.
@@ -47,7 +50,6 @@ You only need to do this once. Mac copies show where to download each new versio
 * **v0.94.0:** Dynamic point and spot lights with radius falloff and flashlight cones.
 * **v0.93.0:** Branching dialogue trees with player choices, condition gates and quest hooks.
 * **v0.92.0:** Math in every number field (`16*3`, `+=2`), an undo history panel, and settings search in **Ctrl+K**.
-* **v0.91.0:** Drag-to-scrub number fields and a smarter command palette.
 
 See every change on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
