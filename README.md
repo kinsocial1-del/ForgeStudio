@@ -6,14 +6,14 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.100.3)
+## 🚀 Downloads (Latest Release: v0.100.4)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.100.3.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.3/Forge.Studio.Setup.0.100.3.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.100.4.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.4/Forge.Studio.Setup.0.100.4.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.100.3-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.3/Forge.Studio-0.100.3-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.100.3-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.3/Forge.Studio-0.100.3-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.100.4-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.100.4/Forge.Studio-0.100.4-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.100.4-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.4/Forge.Studio-0.100.4-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -40,6 +40,7 @@ You only need to do this once. Mac copies show where to download each new versio
 
 ## ✨ What's new
 
+* **v0.100.4:** Fixed engine graph IF checks ignoring wired values and random formulas mishandling reversed bounds.
 * **v0.100.3:** Fixed clipboard asset isolation and reused matching assets when pasting between projects.
 * **v0.100.2:** Fixed stuck firing/camera input, music carrying into silent levels, and saved games staying frozen after a win or game over.
 
