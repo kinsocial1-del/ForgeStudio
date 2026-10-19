@@ -8,6 +8,8 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ## 🚀 Downloads (Latest Release: v0.100.6)
 
+> **Menus unresponsive in v0.100.5?** This is a confirmed regression, fixed in **v0.100.6**. Use the direct downloads below to update without the editor menus. On Windows, close Forge Studio and run the [0.100.6 installer](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.6/Forge.Studio.Setup.0.100.6.exe) over the existing installation.
+
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
 | **Windows Installer** | [**Forge.Studio.Setup.0.100.6.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.100.6/Forge.Studio.Setup.0.100.6.exe) | Recommended. Standard setup with in-app updates and desktop integration |
