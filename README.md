@@ -6,14 +6,14 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.103.5)
+## 🚀 Downloads (Latest Release: v0.103.6)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.103.5.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.5/Forge.Studio.Setup.0.103.5.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.103.6.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.6/Forge.Studio.Setup.0.103.6.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.103.5-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.103.5/Forge.Studio-0.103.5-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.103.5-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.5/Forge.Studio-0.103.5-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.103.6-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.103.6/Forge.Studio-0.103.6-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.103.6-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.6/Forge.Studio-0.103.6-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ You only need to do this once. Mac copies show where to download each new versio
 ---
 
 ## ✨ What's new
+
+* **v0.103.6:** Offline Python and Lua scripting, an experimental GDScript syntax subset, and GPU/frame-rate diagnostics. See the script editor references for runtime and compatibility limits.
 
 * **v0.103.1:** GPU geometry caches retain recently drawn models, terrain and meshes, reducing unnecessary uploads when other assets enter the cache.
 
@@ -83,6 +85,8 @@ See every change on the [Releases page](https://github.com/kinsocial1-del/ForgeS
 * **Small and self-contained:** No huge downloads and no external SDKs to install. Open it and start building.
 * **Full 3D & 2D Engines:** Custom WebGL2 renderer with PBR materials, soft shadows, dynamic point and spot lights, bloom, screen-space reflections, depth of field, volumetric fog and ACES tone mapping, plus authentic retro displays (CRT, Game Boy, NES, SNES, PS1 vertex wobble).
 * **Code Your Way:**
+  * **Python and Lua:** Offline gameplay scripting through bundled Skulpt (Python 3 mode) and Fengari (Lua 5.3), with language-specific examples and the Forge gameplay API.
+  * **Experimental GDScript subset:** Familiar syntax for Forge behaviours; Godot APIs and addons require porting.
   * **Plain JavaScript:** Full object lifecycle scripting (`onStart`, `onUpdate`, `onTouch`, `onKey`, `onHit`, `onMessage`) with live code reloading during Play mode and a built-in script debugger.
   * **Visual Node-Graphs:** Blueprint-style visual scripting linking events, conditions, and actions with wired value pins.
   * **No-Code Rules:** Rapid event-driven triggers (`WHEN ... ONLY IF ... DO ...`).
