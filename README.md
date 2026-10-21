@@ -6,14 +6,14 @@ Forge Studio gives solo creators and indie game developers the power to build, s
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.103.7)
+## 🚀 Downloads (Latest Release: v0.103.8)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.103.7.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.7/Forge.Studio.Setup.0.103.7.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.103.8.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.8/Forge.Studio.Setup.0.103.8.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.103.7-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.103.7/Forge.Studio-0.103.7-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.103.7-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.7/Forge.Studio-0.103.7-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.103.8-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.103.8/Forge.Studio-0.103.8-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.103.8-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.8/Forge.Studio-0.103.8-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ You only need to do this once. Mac copies show where to download each new versio
 ---
 
 ## ✨ What's new
+
+* **v0.103.8:** A refined editor interface, clearer search and asset workflows, unsaved script protection, and improved keyboard and screen-reader accessibility.
 
 * **v0.103.7:** Send feedback from Help to the public GitHub issue form, plus improved script indentation and selected-line Tab/Shift+Tab editing.
 
