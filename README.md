@@ -10,26 +10,22 @@ Forge Studio is a desktop editor for building 2D and 3D games. Create levels, ad
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.103.8)
+## 🚀 Downloads (Latest Release: v0.103.13)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.103.8.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.8/Forge.Studio.Setup.0.103.8.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.103.13.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.13/Forge.Studio.Setup.0.103.13.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.103.8-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.103.8/Forge.Studio-0.103.8-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.103.8-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.8/Forge.Studio-0.103.8-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.103.13-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.103.13/Forge.Studio-0.103.13-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.103.13-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.103.13/Forge.Studio-0.103.13-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
 ### 🍎 First launch on macOS
 
-The Mac app is not yet signed with an Apple Developer ID, so macOS asks before opening it the first time:
+v0.103.13 and newer Mac releases are signed with an Apple Developer ID and notarized by Apple. Open the disk image, drag Forge Studio into **Applications**, then launch it.
 
-1. Open **Applications**, right-click **Forge Studio** and choose **Open**.
-2. Click **Open** in the dialog.
-3. If macOS still blocks it, go to **System Settings → Privacy & Security** and click **Open Anyway**.
-
-You only need to do this once. Mac copies show where to download each new version until in-app installs are available on Mac.
+If you have an older unsigned Mac copy, install the signed app once to enable future in-app updates. Your projects are kept. After that, use **Help → Check for updates** to download and restart into newer signed versions.
 
 ### 💻 System requirements
 
@@ -43,6 +39,8 @@ You only need to do this once. Mac copies show where to download each new versio
 ---
 
 ## ✨ What's new
+
+* **v0.103.13:** Protect unsaved scripts when switching projects, save scripts with a keyboard shortcut, read clearer errors and debugger watch instructions, and receive signed Mac updates.
 
 * **v0.103.8:** A refined editor interface, clearer search and asset workflows, unsaved script protection, and improved keyboard and screen-reader accessibility.
 
