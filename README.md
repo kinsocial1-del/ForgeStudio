@@ -2,7 +2,11 @@
 
 **A lightweight, fast 2D and 3D game creator for Windows, macOS and Linux.**
 
-Forge Studio gives solo creators and indie game developers the power to build, script, and publish rich 2D and 3D games with zero bloat and batteries included. It is free to download and use, and the games you make are yours to sell and share.
+Forge Studio is a desktop editor for building 2D and 3D games. Create levels, add gameplay, write scripts and test your game in one workspace. It is free to download and use, and the games you make are yours to sell and share.
+
+[Visit the website](https://forgestudio-engine.neoncove32.chatgpt.site) · [Download Forge Studio](https://github.com/kinsocial1-del/ForgeStudio/releases/latest) · [Send feedback](https://github.com/kinsocial1-del/ForgeStudio/issues/new/choose)
+
+[![Forge Studio 3D editing workspace](https://forgestudio-engine.neoncove32.chatgpt.site/assets/editor-3d.png)](https://forgestudio-engine.neoncove32.chatgpt.site/#workspace)
 
 ---
 
@@ -99,7 +103,7 @@ See every change on the [Releases page](https://github.com/kinsocial1-del/ForgeS
   * 400+ built-in CC0 3D models and 2D sprites.
   * Rigged FBX and glTF skeletal animation with Mixamo support, animation layers, foot-placement and look-at IK.
   * 2D/3D physics, capsule character controllers, continuous collision (no wall tunnelling), springs, hinges, ragdolls and destructible props.
-  * AI brains (chase, patrol, flee, guard) with 3D multi-floor navigation meshes.
+  * NPC behaviours (chase, patrol, flee, guard) with 3D multi-floor navigation meshes.
   * Branching dialogue, quests, decals, particles and ribbon trails.
   * Built-in 32-player online multiplayer with encrypted connections.
   * One-click export to a standalone HTML game that runs in a web browser, or a Windows executable (exported from the Windows version).
@@ -111,7 +115,7 @@ See every change on the [Releases page](https://github.com/kinsocial1-del/ForgeS
 Forge Studio is distributed as a compiled desktop application for Windows, macOS and Linux.
 
 * **Proprietary Engine Core:** GitHub automatically attaches generic *"Source code"* links to release tags, but those contain only this page. The engine core and editor are proprietary software and are not published.
-* **Game Scripting & Creation:** You do **not** need the engine's source code to create games. You write all game logic, behaviors and gameplay inside Forge Studio using **standard JavaScript (ES6+)**, visual node-graphs and logic rules.
+* **Game Scripting & Creation:** You do **not** need the engine's source code to create games. Build gameplay inside Forge Studio using **JavaScript, Python or Lua**, visual node-graphs and event rules. An experimental GDScript syntax subset is also available; Godot APIs and addons require porting.
 
 ---
 
