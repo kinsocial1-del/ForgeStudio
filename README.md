@@ -10,14 +10,14 @@ Forge Studio is a desktop editor for building 2D and 3D games. Create levels, ad
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.107.0)
+## 🚀 Downloads (Latest Release: v0.108.0)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.107.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.107.0/Forge.Studio.Setup.0.107.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.108.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.108.0/Forge.Studio.Setup.0.108.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.107.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.107.0/Forge.Studio-0.107.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.107.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.107.0/Forge.Studio-0.107.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.108.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.108.0/Forge.Studio-0.108.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.108.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.108.0/Forge.Studio-0.108.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ If you have an older unsigned Mac copy, install the signed app once to enable fu
 ---
 
 ## ✨ What's new
+
+* **v0.108.0:** Create editable prototypes across 23 game types. Improved adventure scenery, animated actors, melee combos and dash; detailed briefs, exclusions, separate sword/Fireball abilities and ordered relative edits such as “double enemies, then remove two.” Review supported settings and preset limitations before creating.
 
 * **v0.107.0:** Build with descriptions during editor Play mode. Preview and add monsters, crystals, healing pickups and scenery near your player, then continue without resetting gameplay. Keep additions in saved projects and exports, with Undo after stopping.
 
