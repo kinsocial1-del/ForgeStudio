@@ -10,14 +10,14 @@ Forge Studio is a desktop editor for building 2D and 3D games. Create levels, ad
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.109.0)
+## 🚀 Downloads (Latest Release: v0.110.0)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.109.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.109.0/Forge.Studio.Setup.0.109.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.110.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.110.0/Forge.Studio.Setup.0.110.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.109.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.109.0/Forge.Studio-0.109.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.109.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.109.0/Forge.Studio-0.109.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.110.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.110.0/Forge.Studio-0.110.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.110.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.110.0/Forge.Studio-0.110.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ If you have an older unsigned Mac copy, install the signed app once to enable fu
 ---
 
 ## ✨ What's new
+
+* **v0.110.0:** Import complete model packs with clear per-file results and single-step Undo. Convert Unity source artwork/audio without Unity, or Blender scenes through an installed Blender 3.6+ using Add asset → Convert assets…. Native prefab logic and Unreal packages still require rebuilding or source-engine export.
 
 * **v0.109.0:** Original Expedition and Foundry art kits, looping props and seven editable themed scores improve generated adventures. Smoother third-person camera recovery and readable, locked-aim enemy firing warnings improve movement and combat. Better robot-count prompts, mixed-environment previews and animation restart reliability.
 
