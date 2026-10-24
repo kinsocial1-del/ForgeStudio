@@ -10,14 +10,14 @@ Forge Studio is a desktop editor for building 2D and 3D games. Create levels, ad
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.111.0)
+## 🚀 Downloads (Latest Release: v0.112.0)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.111.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.111.0/Forge.Studio.Setup.0.111.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.112.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.112.0/Forge.Studio.Setup.0.112.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.111.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.111.0/Forge.Studio-0.111.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.111.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.111.0/Forge.Studio-0.111.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.112.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.112.0/Forge.Studio-0.112.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.112.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.112.0/Forge.Studio-0.112.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ If you have an older unsigned Mac copy, install the signed app once to enable fu
 ---
 
 ## ✨ What's new
+
+* **v0.112.0:** Build while playing now places additions on supported terrain, ramps and rotated box floors. Footprint, slope, edge, height and obstacle checks improve placement; temporary or moved supports are excluded so saved additions retain their ground after Play stops.
 
 * **v0.111.0:** Browse all 23 supported game starters with dimension and objective previews. More responsive jumping in new walking starters, with editable early-input buffering and late-edge grace. Refined project hub, description and Play builders, conversion cards and import reports keep controls visible through long content.
 
