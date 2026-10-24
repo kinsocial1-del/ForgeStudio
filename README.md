@@ -40,7 +40,7 @@ If you have an older unsigned Mac copy, install the signed app once to enable fu
 
 ## ✨ What's new
 
-** **v0.113.0:** Add the Relay Outpost kit: 12 original station models (four with articulated animation), eight sound effects and two music loops, plus a restore-power mission in Create from description. Play sound actions gain volume, pitch and mixer-bus controls, and behaviors accept custom interaction prompts.
+* **v0.113.0:** Add the Relay Outpost kit: 12 original station models (four with articulated animation), eight sound effects and two music loops, plus a restore-power mission in Create from description. Play sound actions gain volume, pitch and mixer-bus controls, and behaviors accept custom interaction prompts.
 
 * **v0.112.3:** Imported static 3D scenery now skips rendering work outside both the camera and shadow views. Bounds follow actual model geometry, fitting, rotation and scale; animated models and wind-blown foliage retain conservative visibility.
 
