@@ -10,14 +10,14 @@ Forge Studio is a desktop editor for building 2D and 3D games. Create levels, ad
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.112.1)
+## 🚀 Downloads (Latest Release: v0.112.2)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.112.1.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.112.1/Forge.Studio.Setup.0.112.1.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.112.2.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.112.2/Forge.Studio.Setup.0.112.2.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.112.1-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.112.1/Forge.Studio-0.112.1-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.112.1-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.112.1/Forge.Studio-0.112.1-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.112.2-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.112.2/Forge.Studio-0.112.2-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.112.2-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.112.2/Forge.Studio-0.112.2-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ If you have an older unsigned Mac copy, install the signed app once to enable fu
 ---
 
 ## ✨ What's new
+
+* **v0.112.2:** Reduce instant-hit weapon query work in larger scenes by checking objects along the shot path, while preserving wall blocking, damage and standalone behavior.
 
 * **v0.112.1:** Keep the follow camera clear above ramp slopes, including rotated ramps, while preserving collision protection and smooth recovery in Play and exported games.
 
