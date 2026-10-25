@@ -10,14 +10,14 @@ Forge Studio is a desktop editor for building 2D and 3D games. Create levels, ad
 
 ---
 
-## 🚀 Downloads (Latest Release: v0.113.0)
+## 🚀 Downloads (Latest Release: v0.114.0)
 
 | Platform | Direct Download | Notes |
 | :--- | :--- | :--- |
-| **Windows Installer** | [**Forge.Studio.Setup.0.113.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.113.0/Forge.Studio.Setup.0.113.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
+| **Windows Installer** | [**Forge.Studio.Setup.0.114.0.exe**](https://forge-studio-downloads.forgestudio.workers.dev/v0.114.0/Forge.Studio.Setup.0.114.0.exe) | Recommended. Standard setup with in-app updates and desktop integration |
 | **Windows Portable** | [**Forge.Studio.exe**](https://github.com/kinsocial1-del/ForgeStudio/releases/latest/download/Forge.Studio.exe) | Single file; run from any folder or USB drive. No in-app updates |
-| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.113.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.113.0/Forge.Studio-0.113.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
-| **Linux** (x64) | [**Forge.Studio-0.113.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.113.0/Forge.Studio-0.113.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
+| **macOS** (Intel & Apple Silicon) | [**Forge.Studio-0.114.0-mac.dmg**](https://github.com/kinsocial1-del/ForgeStudio/releases/download/v0.114.0/Forge.Studio-0.114.0-mac.dmg) | Drag into Applications. See [first launch on Mac](#-first-launch-on-macos) |
+| **Linux** (x64) | [**Forge.Studio-0.114.0-linux.AppImage**](https://forge-studio-downloads.forgestudio.workers.dev/v0.114.0/Forge.Studio-0.114.0-linux.AppImage) | `chmod +x` the file, then run it. Updates in-app |
 
 > **Already installed?** Get new features and fixes inside the app with **Help → Check for updates**. Release notes and older versions are on the [Releases page](https://github.com/kinsocial1-del/ForgeStudio/releases).
 
@@ -39,6 +39,8 @@ If you have an older unsigned Mac copy, install the signed app once to enable fu
 ---
 
 ## ✨ What's new
+
+* **v0.114.0:** Optional basic usage sharing is off by default, with a clear privacy setting and one daily report after foreground use. Turning it off removes the local ID and attempts to delete shared reports. Projects, prompts and exported games are never included.
 
 * **v0.113.0:** Add the Relay Outpost kit: 12 original station models (four with articulated animation), eight sound effects and two music loops, plus a restore-power mission in Create from description. Play sound actions gain volume, pitch and mixer-bus controls, and behaviors accept custom interaction prompts.
 
